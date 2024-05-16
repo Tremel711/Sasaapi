@@ -40,11 +40,5 @@ class ApiService
         $result = json_decode($response, true);
         return $result['title'];
     }
-    /* public function getPostExcerpt($postId)
-    {
-        $url = "https://jsonplaceholder.typicode.com/posts/" . $postId;
-        $response = file_get_contents($url);
-        $result = json_decode($response, true);
-        return $result;
-    } */
+   
 }

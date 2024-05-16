@@ -33,18 +33,3 @@
 </table>
 
 </html>
-
-<!-- <body>
-    <h1><?php echo $title; ?></h1>
-    <ul>
-        <?php foreach ($posts as $post) : ?>
-            <li>
-                <a href="?action=showComments&post_id=<?php echo $post['id']; ?>">
-                    <?php echo $post['title']; ?>
-                    <br>
-                    <?php echo $post['body']; ?>
-                </a>
-            </li>
-        <?php endforeach; ?>
-    </ul>
-</body> -->
